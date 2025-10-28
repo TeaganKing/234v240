@@ -1,0 +1,107 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+Starting: namelist.ncl
+Finished: namelist.ncl
+(0)	Starting: snd.trends.ncl
+(0)	File missing, creating blank array of data. View SNOWDP namelist for details.
+(0)	File missing, creating blank array of data. View SNOWDP namelist for details.
+(0)	File missing, creating blank array of data. View SNOWDP namelist for details.
+(0)	File missing, creating blank array of data. View SNOWDP namelist for details.
+(0)	File missing, creating blank array of data. View SNOWDP namelist for details.
+(0)	File missing, creating blank array of data. View SNOWDP namelist for details.
+(0)	Finished: snd.trends.ncl
+(0)	Starting: tas.trends_timeseries.ncl
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: tas.trends_timeseries.ncl
+(0)	Starting: psl.trends.ncl
+(0)	Requested 1-21 time span is outside the input file /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240.cam.h0a.PSL.000101-002012.nc time span of 1-20
+(0)	Setting array to all missing
+(0)	Finished: psl.trends.ncl
+(0)	Starting: pdo.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Starting: amo.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.TS.*.nc
+(0)	Read from file name: 101-2112
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: pdo.ncl
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.TS.*.nc
+(0)	Read from file name: 101-2112
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: amo.ncl
+(0)	Starting: pr.trends_timeseries.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.PRECT.*.nc
+(0)	Read from file name: 101-2112
+(0)	Finished: pr.trends_timeseries.ncl
+(0)	Starting: psl.pna_npo.ncl
+(0)	Requested 1-21 time span is outside the input file /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240.cam.h0a.PSL.000101-002012.nc time span of 1-20
+(0)	Setting array to all missing
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: psl.pna_npo.ncl
+(0)	Starting: sst.indices.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Starting: sst.mean_stddev.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.TS.*.nc
+(0)	Read from file name: 101-2112
+(0)	Finished: sst.mean_stddev.ncl
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.TS.*.nc
+(0)	Read from file name: 101-2112
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: sst.indices.ncl
+(0)	Starting: psl.nam_nao.ncl
+(0)	Requested 1-21 time span is outside the input file /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240.cam.h0a.PSL.000101-002012.nc time span of 1-20
+(0)	Setting array to all missing
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: psl.nam_nao.ncl
+(0)	Starting: pr.mean_stddev.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.PRECT.*.nc
+(0)	Read from file name: 101-2112
+(0)	Finished: pr.mean_stddev.ncl
+(0)	Starting: sst.trends_timeseries.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Starting: psl.mean_stddev.ncl
+(0)	Requested 1-21 time span is outside the input file /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240.cam.h0a.PSL.000101-002012.nc time span of 1-20
+(0)	Setting array to all missing
+(0)	Finished: psl.mean_stddev.ncl
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.TS.*.nc
+(0)	Read from file name: 101-2112
+(0)	Finished: sst.trends_timeseries.ncl
+(0)	Starting: tas.mean_stddev.ncl
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: tas.mean_stddev.ncl
+(0)	Starting: ipo.ncl
+warning:Aggregated dimension coordinate values are non-monotonic; check aggregated file ordering
+(0)	Possible mismatch detected between time specified in file name and file variables, setting array to missing
+(0)	File = /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/*.TS.*.nc
+(0)	Read from file name: 101-2112
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: ipo.ncl
+(0)	Starting: psl.sam_psa.ncl
+(0)	Requested 1-21 time span is outside the input file /glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240/atm/proc/tseries/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240.cam.h0a.PSL.000101-002012.nc time span of 1-20
+(0)	Setting array to all missing
+(0)	File missing, creating blank array of data. View TREFHT namelist for details.
+(0)	Finished: psl.sam_psa.ncl
+runTasks.py: Done with CVDP calculation scripts
+Starting: ncfiles.append.ncl
+Finished: ncfiles.append.ncl
+Starting: metrics.ncl
+Finished: metrics.ncl
+Starting: webpage.ncl
+Finished: webpage.ncl
+(0)	Starting: Climate Variability Diagnostics Package (Mon 27 Oct 2025 09:11:10 PM MDT)
+(0)	Finished: Climate Variability Diagnostics Package (Mon 27 Oct 2025 09:28:19 PM MDT)
