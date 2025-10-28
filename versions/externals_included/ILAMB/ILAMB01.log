@@ -1,0 +1,969 @@
+[INFO][0][<module>] Linux casper-login1 5.14.21-150400.24.46-default #1 SMP PREEMPT_DYNAMIC Thu Feb 9 08:38:18 UTC 2023 (2d95137) x86_64 x86_64
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB (2.7.2)
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/numpy (2.3.3)
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/matplotlib (3.10.6)
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/netCDF4 (1.7.2)
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/cf_units (3.3.0)
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/sympy (1.14.0)
+[INFO][0][<module>] /glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/mpi4py (4.1.0)
+[INFO][0][<module>] 2025-10-27 17:58:40.330047
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/Tropical][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/Tropical][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/GlobalCarbon][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/GlobalCarbon][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/USForest][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/USForest][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/Thurner][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/Thurner][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/ESACCI][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTVEGC,biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/ESACCI][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [FAREA_BURNED,burntArea] in the model results
+[DEBUG][0][WorkConfront][BurnedArea/GFED4.1S][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfBurntArea.py", line 23, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [FAREA_BURNED,burntArea] in the model results
+[DEBUG][0][WorkConfront][BurnedArea/GFED4.1S][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfBurntArea.py", line 23, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [NBP] in the model results
+[DEBUG][0][WorkConfront][CarbonDioxide/NOAA.emulated][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 602, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 333, in stageData
+    mod = self.emulatedModelResult(m, obs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 213, in emulatedModelResult
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [NBP] in the model results
+[DEBUG][0][WorkConfront][CarbonDioxide/NOAA.emulated][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 602, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 333, in stageData
+    mod = self.emulatedModelResult(m, obs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 213, in emulatedModelResult
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [GPP] in the model results
+[DEBUG][0][WorkConfront][CarbonDioxide/HIPPOAToM][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfGSNF.py", line 55, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfGSNF.py", line 36, in stageData
+    m.extractTimeSeries(
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [GPP] in the model results
+[DEBUG][0][WorkConfront][CarbonDioxide/HIPPOAToM][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfGSNF.py", line 55, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfGSNF.py", line 36, in stageData
+    m.extractTimeSeries(
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
+    obs = Variable(
+          ^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 277, in __init__
+    self.depth_bnds = _createBnds(self.depth)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 37, in _createBnds
+    x_bnds[+1:, 0] = 0.5 * (x[:-1] + x[+1:])
+                     ~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
+    obs = Variable(
+          ^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 277, in __init__
+    self.depth_bnds = _createBnds(self.depth)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 37, in _createBnds
+    x_bnds[+1:, 0] = 0.5 * (x[:-1] + x[+1:])
+                     ~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [GPP,gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [GPP,gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [GPP,gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/WECANN][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [GPP,gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/WECANN][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [GPP,gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/GBAF][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [GPP,gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/GBAF][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TLAI,lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TLAI,lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TLAI,lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TLAI,lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TLAI,lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TLAI,lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][WorkConfront][GlobalNetEcosystemCarbonBalance/GCP][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 98, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 66, in stageData
+    mod = mod.integrateInSpace().convert(obs.unit)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 707, in integrateInSpace
+    raise il.NotSpatialVariable()
+ILAMB.ilamblib.NotSpatialVariable: NotSpatialVariable
+
+[DEBUG][0][WorkConfront][GlobalNetEcosystemCarbonBalance/GCP][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 98, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 66, in stageData
+    mod = mod.integrateInSpace().convert(obs.unit)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 707, in integrateInSpace
+    raise il.NotSpatialVariable()
+ILAMB.ilamblib.NotSpatialVariable: NotSpatialVariable
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
+    obs = Variable(
+          ^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 277, in __init__
+    self.depth_bnds = _createBnds(self.depth)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 37, in _createBnds
+    x_bnds[+1:, 0] = 0.5 * (x[:-1] + x[+1:])
+                     ~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
+    obs = Variable(
+          ^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 277, in __init__
+    self.depth_bnds = _createBnds(self.depth)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 37, in _createBnds
+    x_bnds[+1:, 0] = 0.5 * (x[:-1] + x[+1:])
+                     ~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/GBAF][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 490, in derivedVariable
+    free_symbols = sympify(expression).free_symbols
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'free_symbols'
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/GBAF][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 490, in derivedVariable
+    free_symbols = sympify(expression).free_symbols
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'free_symbols'
+
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
+    obs = Variable(
+          ^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 277, in __init__
+    self.depth_bnds = _createBnds(self.depth)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 37, in _createBnds
+    x_bnds[+1:, 0] = 0.5 * (x[:-1] + x[+1:])
+                     ~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
+    obs = Variable(
+          ^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 277, in __init__
+    self.depth_bnds = _createBnds(self.depth)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Variable.py", line 37, in _createBnds
+    x_bnds[+1:, 0] = 0.5 * (x[:-1] + x[+1:])
+                     ~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [AR] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [AR] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [AR] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/GBAF][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [AR] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/GBAF][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTSOMC_1m,cSoil,cSoilAbove1m] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/HWSD][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTSOMC_1m,cSoil,cSoilAbove1m] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/HWSD][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [TOTSOMC_1m,cSoil,cSoilAbove1m] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/NCSCDV22][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [TOTSOMC_1m,cSoil,cSoilAbove1m] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/NCSCDV22][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [cSoilAbove1m,soilc,cSoil,TOTSOMC_1m] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/Koven][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 115, in confront
+    m.extractTimeSeries(
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [cSoilAbove1m,soilc,cSoil,TOTSOMC_1m] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/Koven][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 115, in confront
+    m.extractTimeSeries(
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [FFIX_TO_SMINN,fBNF] in the model results
+[DEBUG][0][WorkConfront][NitrogenFixation/Davies-Barnard][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [FFIX_TO_SMINN,fBNF] in the model results
+[DEBUG][0][WorkConfront][NitrogenFixation/Davies-Barnard][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [QVEGE] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [QVEGE] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [QVEGE] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [QVEGE] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240] Could not find [QVEGE] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.240]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234] Could not find [QVEGE] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234]
+Traceback (most recent call last):
+  File "/glade/work/tking/conda-envs/cupid-analysis/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/tking/conda-envs/cupid-analysis/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
